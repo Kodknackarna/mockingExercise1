@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.ArrayList;
+
 public class Product {
     private int id;
     private String name;
@@ -36,3 +38,6 @@ public class Product {
         this.price = price;
     }
 }
+
+
+
