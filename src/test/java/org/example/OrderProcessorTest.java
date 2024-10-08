@@ -10,5 +10,15 @@ class OrderProcessorTest {
 
     @Test
     void calculateTotalPrice() {
+        //given
+        ProductRepository productRepository = mock(ProductRepository.class);
+        OrderProcessor orderProcessor = new OrderProcessor();
+
+
+        //when
+
+
+        //then
+
     }
 }
